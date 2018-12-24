@@ -1,24 +1,17 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
-
-		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
-
-		{{ .Content }}
-
-		<div class="flex-ns mb3">
-	        	{{ range .Params.contact_entries }}
-				<div>
-					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
-					<p>{{ .text }}</p>
+		<div class="contact-main">
+				<div class="contact-header">
+						<h1 class="contact-title" data-ix="fade-in-on-load">
+								Let's get your<br>website <span class="highlight-title">Started</span>!
+								<span class="highlight-title"></span><br />
+							  </h1>
 				</div>
-			{{ end }}
-		</div>
-
-		{{ partial "contact-form" . }}
-
-	</div>
-</div>
-
+			</div>
+			{{ partial "contact-form" . }}
+			<div class="contact-cta">
+				
+				{{ partial "call-to-action"}}
+			</div>
 {{ end }}
+

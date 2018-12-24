@@ -123,6 +123,13 @@ textarea {
 button {
   overflow: visible;
 }
+footer{
+  color: #ffffff;
+  background-color: #130e30;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  padding: 40px 0px 20px;
+}
 button,
 select {
   text-transform: none;
@@ -1722,6 +1729,10 @@ fieldset[disabled] .w-select {
   background-position: 0 0, 0 0;
   background-size: auto, 50px;
 }
+.contact-main {
+  background-position: 0 0, 0 0;
+  background-size: auto, 50px;
+}
 .arrow-circle,
 .button.cta-button,
 .checklist-item,
@@ -1929,6 +1940,25 @@ a {
 .hero-section {
   padding-top: 190px;
   padding-bottom: 190px;
+  background-color: #f8f9fb;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(248, 249, 251, 0.93)),
+      to(rgba(248, 249, 251, 0.93))
+    ),
+    url(https://uploads-ssl.webflow.com/5bc1a0e9ac42917068d880da/5bc1a0e9ac42918e6cd880f6_architect.svg);
+  background-image: linear-gradient(
+      180deg,
+      rgba(248, 249, 251, 0.93),
+      rgba(248, 249, 251, 0.93)
+    ),
+    url(https://uploads-ssl.webflow.com/5bc1a0e9ac42917068d880da/5bc1a0e9ac42918e6cd880f6_architect.svg);
+}
+.contact-main {
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-color: #f8f9fb;
   background-image: -webkit-gradient(
       linear,
@@ -2309,7 +2339,7 @@ a {
   display: block;
   overflow: hidden;
   max-width: 1200px;
-  margin: -110px auto -230px;
+  margin: -110px auto 250px;
   padding: 30px 60px 41px 100px;
   border-radius: 5px;
   background-color: #140d3a;
@@ -2361,8 +2391,8 @@ a {
   line-height: 40px;
 }
 .section {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .section.home-intro {
   position: relative;
@@ -2411,7 +2441,6 @@ a {
   padding-bottom: 0;
 }
 .section.footer-bottom-section {
-  padding-bottom: 0;
   background: #1d154b;
 }
 .section.timeline-section {
@@ -4606,6 +4635,10 @@ html.w-mod-js [data-ix="hide-tooltip"] {
     padding-top: 100px;
     padding-bottom: 0;
   }
+  .contact-main {
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
   .hero-section.subpage-header {
     padding-top: 130px;
     padding-bottom: 60px;
@@ -5241,9 +5274,7 @@ html.w-mod-js [data-ix="hide-tooltip"] {
   .hero-field {
     font-size: 10px;
   }
-  .contact-section {
-    margin-bottom: 100px !important;
-}
+
   .form-bottom-text {
     margin-right: 2px;
     margin-left: 2px;
@@ -5719,8 +5750,11 @@ html.w-mod-js [data-ix="hide-tooltip"] {
   font-style: normal;
 }
 .row{
-    max-width: 75%;
+    max-width: 960px;
     margin: auto;
+    content: "";
+    clear: both;
+    display: table;
 }
 .column {
     margin: auto;
@@ -5848,7 +5882,7 @@ html.w-mod-js [data-ix="hide-tooltip"] {
   }
   @media screen and (max-width: 991px) {
     .row{
-    max-width: 100% !important;
+    max-width: 960px !important;
 }
   }
   @media screen and (max-width: 767px) {
@@ -5861,9 +5895,6 @@ html.w-mod-js [data-ix="hide-tooltip"] {
   z-index: 99;
 }
   }
-.contact-section{
-  margin-bottom: -100px;
-}
 
 .form-container{
   text-align: left;
@@ -5873,7 +5904,7 @@ html.w-mod-js [data-ix="hide-tooltip"] {
   font-weight: 400;
   font-size: 16px;
   max-width: 500px;
-  margin: 60px auto 40px;
+  margin: 60px auto 60px;
   padding: 40px;
   border-radius: 4px;
   box-shadow:0 5px 20px 0 rgba(49, 107, 233, 0.30);
@@ -5999,4 +6030,21 @@ html.w-mod-js [data-ix="hide-tooltip"] {
 }
 #back-to-top {
   border-radius: 4px;
+}
+.contact-header{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  padding: 50px;
+}
+.contact-title{
+  font-size: 72px;
+  line-height: 85px;
+}
+.contact-cta{
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+.min-height{
+  height:100vh;
 }
