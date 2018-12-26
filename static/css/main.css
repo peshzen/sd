@@ -3465,14 +3465,9 @@ a {
   height: auto;
   padding: 10px;
   border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 14px 14px 80px -10px rgba(0, 0, 0, 0.4);
 }
 .screenshot-highlight.update {
-  left: -38px;
-  top: 41px;
-  right: auto;
-  width: 350px;
+  width: 300px;
   padding: 0;
   opacity: 1;
 }
