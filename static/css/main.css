@@ -2448,20 +2448,11 @@ a {
   overflow: hidden;
   padding-top: 220px;
   padding-bottom: 220px;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#fff),
-      to(#f8f9fb)
-    ),
-    url(https://uploads-ssl.webflow.com/5bc1a0e9ac42917068d880da/5bc1a0e9ac42918e6cd880f6_architect.svg);
-  background-image: linear-gradient(180deg, #fff, #f8f9fb),
-    url(https://uploads-ssl.webflow.com/5bc1a0e9ac42917068d880da/5bc1a0e9ac42918e6cd880f6_architect.svg);
+  background-image: linear-gradient(180deg, #fff, #f4f8f8);
+
 }
 .section.features-section.on-features-page {
   overflow: visible;
-  padding-bottom: 0;
 }
 .footer-bottom-section {
   background: #1d154b;
