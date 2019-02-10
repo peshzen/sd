@@ -123,12 +123,12 @@ textarea {
 button {
   overflow: visible;
 }
-footer{
+footer {
   color: #ffffff;
   background-color: #130e30;
   margin: 0px auto 0px auto;
   text-align: center;
-  padding: 40px 0px 20px;
+  padding: 40px 0px 50px 0px;
 }
 button,
 select {
@@ -2306,6 +2306,12 @@ a {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+.footer-row{
+  clear: both;
+  content: " ";
+  max-width: 960px;
+  margin: auto;
+}
 .footer-link {
   display: block;
   margin-top: 10px;
@@ -2313,6 +2319,13 @@ a {
   text-decoration: none;
 }
 .footer-link:hover {
+  color: #fff;
+}
+.second-footer{
+  color: #8078b1;
+  text-decoration: none;
+}
+.second-footer:hover {
   color: #fff;
 }
 .footer-social-block {
@@ -2333,6 +2346,15 @@ a {
 }
 .footer-social-wrapper {
   margin-top: 20px;
+}
+.footer-left{
+  text-align: left;
+  float: left;
+}
+.footer-right{
+  text-align: right;
+  width: 50%;
+  float: right;
 }
 .hero-info-block {
   position: relative;
@@ -3414,11 +3436,11 @@ a {
 .new-features-block {
   position: relative;
   overflow: hidden;
-  margin-top: 120px;
-  margin-bottom: -110px;
-  padding: 50px 220px 50px 60px;
+  max-width: 1400px;
+  margin: -110px auto 250px;
+  padding: 28px 60px 41px 100px;
   border-radius: 10px;
-  background-color: #1d154b;
+  background-color: #140d3a;
   box-shadow: 35px 35px 100px -30px rgba(0, 0, 0, 0.2);
   color: #fff;
 }
@@ -5897,11 +5919,11 @@ html.w-mod-js [data-ix="hide-tooltip"] {
   font-family: 'Poppins' ,sans-serif;
   font-weight: 400;
   font-size: 16px;
-  max-width: 500px;
+  max-width: 1000px;
   margin: 60px auto 60px;
   padding: 40px;
   border-radius: 4px;
-  box-shadow:0 5px 20px 0 rgba(49, 107, 233, 0.30);
+  box-shadow: 5px 5px 120px -20px rgba(0, 0, 0, 0.4);
   z-index: 999;
 }
 .form-control {
