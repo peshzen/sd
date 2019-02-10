@@ -2472,8 +2472,8 @@ a {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.section.bottom-cta-section {
-  padding-top: 200px;
+.bottom-cta-section {
+  padding-bottom: 150px;
 }
 .section.connect-section {
   overflow: hidden;
