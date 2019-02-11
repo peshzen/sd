@@ -839,6 +839,7 @@ fieldset[disabled] .w-select {
   }
 }
 @media screen and (max-width: 479px) {
+
   .w-container {
     max-width: none;
   }
