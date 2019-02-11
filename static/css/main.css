@@ -6053,7 +6053,49 @@ hr {
 .termly-consent-banner-content-ec96bb{
   background: rgb(36, 180, 180) !important;
 }
-#mce-EMAIL{
-  color: #1d154b;
-    font: inherit;
+.clear{
+  float: right;
+}
+.mc-field-group{
+  float: left;
+}
+.email{
+  position: absolute;
+  border-radius: 10px 0 0 10px;
+  border: 0;
+  padding: 10px;
+  width: 70%;
+  visibility: visible !important;
+  z-index: 0;
+}
+.sub-button{
+  padding: 10px 25px;
+  border-radius: 0 10px 10px 0px;
+  border: 0;
+  background-color: #ff4c7e;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: box-shadow 0.2s ease, background-color 0.2s ease,
+    -webkit-transform 0.2s ease, -webkit-filter 0.2s ease;
+  transition: box-shadow 0.2s ease, background-color 0.2s ease,
+    -webkit-transform 0.2s ease, -webkit-filter 0.2s ease;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, filter 0.2s ease,
+    background-color 0.2s ease;
+  transition: box-shadow 0.2s ease, transform 0.2s ease, filter 0.2s ease,
+    background-color 0.2s ease, -webkit-transform 0.2s ease,
+    -webkit-filter 0.2s ease;
+z-index: 10;
+}
+.sub-button:hover {
+  background-color: #24b4b4;
+  box-shadow: 11px 11px 60px -10px rgba(0, 0, 0, 0.4);
+  -webkit-filter: brightness(110%);
+  filter: brightness(110%);
+  color: #fdfdff;
+}
+.response{
+  margin-top: 10px;
+}
+.mce_inline_error{
+  visibility: hidden;
 }
