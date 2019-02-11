@@ -123,12 +123,12 @@ textarea {
 button {
   overflow: visible;
 }
-footer{
+footer {
   color: #ffffff;
   background-color: #130e30;
   margin: 0px auto 0px auto;
   text-align: center;
-  padding: 40px 0px 20px;
+  padding: 40px 0px 50px 0px;
 }
 button,
 select {
@@ -2061,6 +2061,11 @@ a {
   color: #9f91b8;
   font-size: 22px;
 }
+.contact-title{
+  font-size: 85px;
+  line-height: 105px;
+  text-align: center;
+}
 .hero-subtitle.subpage-subtitle.pricing {
   max-width: 470px;
 }
@@ -2306,6 +2311,12 @@ a {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+.footer-row{
+  clear: both;
+  content: " ";
+  max-width: 960px;
+  margin: auto;
+}
 .footer-link {
   display: block;
   margin-top: 10px;
@@ -2313,6 +2324,13 @@ a {
   text-decoration: none;
 }
 .footer-link:hover {
+  color: #fff;
+}
+.second-footer{
+  color: #8078b1;
+  text-decoration: none;
+}
+.second-footer:hover {
   color: #fff;
 }
 .footer-social-block {
@@ -2333,6 +2351,15 @@ a {
 }
 .footer-social-wrapper {
   margin-top: 20px;
+}
+.footer-left{
+  text-align: left;
+  float: left;
+}
+.footer-right{
+  text-align: right;
+  width: 50%;
+  float: right;
 }
 .hero-info-block {
   position: relative;
@@ -2426,7 +2453,7 @@ a {
   overflow: hidden;
   padding-top: 220px;
   padding-bottom: 220px;
-  background-image: -webkit-gradient(
+  background-image:-webkit-gradient(
       linear,
       left top,
       left bottom,
@@ -2439,7 +2466,6 @@ a {
 }
 .section.features-section.on-features-page {
   overflow: visible;
-  padding-bottom: 0;
 }
 .footer-bottom-section {
   background: #1d154b;
@@ -2450,8 +2476,8 @@ a {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.section.bottom-cta-section {
-  padding-top: 200px;
+.bottom-cta-section {
+  padding-bottom: 150px;
 }
 .section.connect-section {
   overflow: hidden;
@@ -3414,11 +3440,11 @@ a {
 .new-features-block {
   position: relative;
   overflow: hidden;
-  margin-top: 120px;
-  margin-bottom: -110px;
-  padding: 50px 220px 50px 60px;
+  max-width: 1200px;
+  margin: -110px auto 250px;
+  padding: 28px 60px 41px 100px;
   border-radius: 10px;
-  background-color: #1d154b;
+  background-color: #140d3a;
   box-shadow: 35px 35px 100px -30px rgba(0, 0, 0, 0.2);
   color: #fff;
 }
@@ -4306,6 +4332,7 @@ html.w-mod-js [data-ix="hide-tooltip"] {
     width: 230px;
   }
   .footer-cta-title {
+    margin-top: 40px;
     font-size: 24px;
     line-height: 35px;
   }
@@ -5219,6 +5246,11 @@ html.w-mod-js [data-ix="hide-tooltip"] {
   .hero-subtitle.light {
     line-height: 28px;
   }
+  .contact-title{
+    margin-top: -90px;
+    font-size: 28px;
+    line-height: 39px;
+  }
   .button.hero-button {
     padding-right: 10px;
     padding-left: 10px;
@@ -5267,6 +5299,9 @@ html.w-mod-js [data-ix="hide-tooltip"] {
   .footer-link,
   .footer-title {
     font-size: 13px;
+  }
+  .footer-title{
+    margin-top: 70px;
   }
   .hero-info-block {
     padding-bottom: 50px;
@@ -5663,6 +5698,10 @@ html.w-mod-js [data-ix="hide-tooltip"] {
   .cta-button-subtitle {
     line-height: 21px;
   }
+  .footer-left, .footer-right{
+    float: none;
+    text-align: center;
+  }
   .report-rtb {
     font-size: 13px;
     line-height: 22px;
@@ -5897,11 +5936,11 @@ html.w-mod-js [data-ix="hide-tooltip"] {
   font-family: 'Poppins' ,sans-serif;
   font-weight: 400;
   font-size: 16px;
-  max-width: 500px;
+  max-width: 1000px;
   margin: 60px auto 60px;
   padding: 40px;
   border-radius: 4px;
-  box-shadow:0 5px 20px 0 rgba(49, 107, 233, 0.30);
+  box-shadow: 5px 5px 120px -20px rgba(0, 0, 0, 0.4);
   z-index: 999;
 }
 .form-control {
@@ -6030,11 +6069,6 @@ html.w-mod-js [data-ix="hide-tooltip"] {
   max-width: 940px;
   padding: 80px;
 }
-.contact-title{
-  font-size: 85px;
-  line-height: 105px;
-  text-align: center;
-}
 .contact-cta{
   margin-bottom: 40px;
   margin-top: 100px;
@@ -6053,6 +6087,9 @@ hr {
 .termly-consent-banner-content-ec96bb{
   background: rgb(36, 180, 180) !important;
 }
+#mc-embedded-subscribe-form{
+  margin-top: 25px;
+}
 .clear{
   float: right;
 }
@@ -6064,9 +6101,9 @@ hr {
   border-radius: 10px 0 0 10px;
   border: 0;
   padding: 10px;
-  width: 70%;
+  width: 67%;
   visibility: visible !important;
-  z-index: 0;
+  z-index: 10;
 }
 .sub-button{
   padding: 10px 25px;
@@ -6084,7 +6121,7 @@ hr {
   transition: box-shadow 0.2s ease, transform 0.2s ease, filter 0.2s ease,
     background-color 0.2s ease, -webkit-transform 0.2s ease,
     -webkit-filter 0.2s ease;
-z-index: 10;
+z-index: -1;
 }
 .sub-button:hover {
   background-color: #24b4b4;
