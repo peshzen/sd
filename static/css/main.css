@@ -145,6 +145,9 @@ input::-moz-focus-inner {
 }
 input {
   line-height: normal;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 input[type="checkbox"],
 input[type="radio"] {
