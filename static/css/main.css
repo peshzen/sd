@@ -846,6 +846,9 @@ z-index: -1;
     right: auto;
   }
 }
+#back-to-top:hover{
+  background: rgb(36, 180, 180);;
+}
 @media screen and (max-width: 767px) {
   .w-hidden-main,
   .w-hidden-medium {
