@@ -3028,22 +3028,6 @@ a {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-.perspective-screenshot._2 {
-  left: -268px;
-  top: 160px;
-  z-index: 9;
-  background-image: url(https://uploads-ssl.webflow.com/5bc1a0e9ac42917068d880da/5bc1a0e9ac429110b7d880f3_Screen-Cropped-6.jpg);
-}
-.perspective-screenshot._2.about-3 {
-  left: -291px;
-  top: 337px;
-  -webkit-filter: brightness(80%);
-  filter: brightness(80%);
-}
-.perspective-screenshot.about-2 {
-  top: 174px;
-  background-image: url(https://uploads-ssl.webflow.com/5bc1a0e9ac42917068d880da/5bc1a0e9ac42918b9fd880f4_Screen-Cropped-5.jpg);
-}
 .screenshot-slider-wrapper {
   position: relative;
   z-index: 1;
